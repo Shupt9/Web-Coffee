@@ -3,10 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Lonely Coffee</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet" />
+
+    <!-- feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- style css -->
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <h1>Hello World!g</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quis odio eaque nobis modi? Enim quas pariatur sequi unde quaerat. Laborum perspiciatis neque velit voluptate omnis atque dolores nobis eum!</p>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <a href="#r" class="navbar-logo">Lonely <span>coffee</span></a>
+
+      <div class="navbar-nav">
+        <a href="#e">Home</a>
+        <a href="#about">Tentang kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="humburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+    <!-- Feather icons -->
+    <script>
+      feather.replace();
+    </script>
   </body>
 </html>
